@@ -26,3 +26,29 @@ The dataset used in this lab is too large to host on GitHub. Download it HERE : 
 - Performed data cleaning and preprocessing.  
 - Built and evaluated three machine learning models for price prediction.  
 - Visualized and interpreted model results.
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/Lab8-Airbnb.git
+cd Lab8-Airbnb
+
+2. Create a Python virtual environment 
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Mac/Linux
+source venv/bin/activate
+
+3. manually install the main libraries:
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+Run the notebook
+
+Place the dataset in the data/ folder (or download from the link in the README).
+
+Open the Jupyter notebook:
+jupyter notebook Lab8_Airbnb.ipynb
+
+
